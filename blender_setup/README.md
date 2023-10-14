@@ -9,3 +9,7 @@
 # set clipping (N to show this tool)
 
 ![set clipping](0003.png?raw=true)
+
+# save as default
+
+![save as default](0004.png?raw=true)
