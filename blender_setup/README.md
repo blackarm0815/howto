@@ -6,6 +6,6 @@
 
 ![set floor scale](0002.png?raw=true)
 
-# set clipping
+# set clipping (N to show this tool)
 
 ![set clipping](0003.png?raw=true)
