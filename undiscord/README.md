@@ -32,6 +32,8 @@ https://github.com/victornpb/undiscord/wiki/authToken
 
 ### click the 3 id buttons (author, server, channel)
 
+![click id buttons](003.png?raw=true)
+
 ### click the red delete button
 
 ### it should show you a preview of posts, click ok
