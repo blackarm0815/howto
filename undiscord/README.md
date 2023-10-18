@@ -26,7 +26,11 @@ https://github.com/victornpb/undiscord/wiki/authToken
 
 ### in the undiscord controls click on advance settings
 
+![click id buttons](004.png?raw=true)
+
 ### paste your authorization key into place
+
+![click id buttons](005.png?raw=true)
 
 ### navigate to the discord server and channel you want to erase
 
