@@ -18,6 +18,10 @@ sudo apt install ./jdk-22_linux-x64_bin.deb
 # install tmux
 sudo apt install tmux -y
 
+# make minecraft folder
+mkdir minecraft
+cd minecraft
+
 # download the minecraft server from https://www.minecraft.net/en-us/download/server
 wget https://piston-data.mojang.com/v1/objects/450698d1863ab5180c25d7c804ef0fe6369dd1ba/server.jar
 
