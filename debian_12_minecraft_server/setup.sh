@@ -19,11 +19,11 @@ sudo apt install tmux -y
 wget https://piston-data.mojang.com/v1/objects/450698d1863ab5180c25d7c804ef0fe6369dd1ba/server.jar
 
 # run the server for the first time
-java -jar server.js
+java -jar server.jar
 
 # edit the eula (change false to true)
 nano eula.txt
 
 # run the server in tmux
 tmux
-java -jar server.js
+java -jar server.jar
