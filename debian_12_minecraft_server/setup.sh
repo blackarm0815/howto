@@ -10,7 +10,7 @@ usermod -aG sudo <username>
 
 # download java 22 from https://www.oracle.com/java/technologies/downloads/
 wget https://download.oracle.com/java/22/latest/jdk-22_linux-x64_bin.deb
-apt install ./jdk-22_linux-x64_bin.deb
+sudo apt install ./jdk-22_linux-x64_bin.deb
 
 # install tmux
 sudo apt install tmux -y
