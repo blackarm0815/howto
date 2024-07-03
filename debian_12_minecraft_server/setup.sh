@@ -31,6 +31,9 @@ java -jar server.jar
 # edit the eula (change false to true)
 nano eula.txt
 
+# find the ip address of the server
+ip a | grep 192
+
 # run the server in tmux
 tmux
 java -jar server.jar
