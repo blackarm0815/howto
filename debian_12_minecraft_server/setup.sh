@@ -1,9 +1,3 @@
-# debian 12 minecraft server
-# download the debian 12 netinst iso
-#wget https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.6.0-amd64-netinst.iso
-# put it on a usb drive
-# install it on the server
-
 # add the user to sudo
 su -
 usermod -aG sudo <username>
