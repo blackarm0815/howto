@@ -1,16 +1,17 @@
-# add the user to sudo
-su -
-usermod -aG sudo <username>
-
-# exit root account
-exit
-
 # download java 22 from https://www.oracle.com/java/technologies/downloads/
 wget https://download.oracle.com/java/22/latest/jdk-22_linux-x64_bin.deb
-sudo apt install ./jdk-22_linux-x64_bin.deb
+
+# switch to root user
+su
+
+# install java
+apt install ./jdk-22_linux-x64_bin.deb
 
 # install tmux
 sudo apt install tmux -y
+
+# exit root account
+exit
 
 # make minecraft folder
 mkdir minecraft
