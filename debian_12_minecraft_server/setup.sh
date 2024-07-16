@@ -8,7 +8,7 @@ su
 apt install ./jdk-22_linux-x64_bin.deb
 
 # install tmux
-sudo apt install tmux -y
+apt install tmux -y
 
 # exit root account
 exit
