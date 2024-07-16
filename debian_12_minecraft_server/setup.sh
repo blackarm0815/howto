@@ -17,8 +17,8 @@ exit
 mkdir minecraft
 cd minecraft
 
-# download the minecraft server from https://www.minecraft.net/en-us/download/server
-wget https://piston-data.mojang.com/v1/objects/450698d1863ab5180c25d7c804ef0fe6369dd1ba/server.jar
+# download the minecraft server version 1.20.4
+wget https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar
 
 # run the server for the first time
 java -jar server.jar
