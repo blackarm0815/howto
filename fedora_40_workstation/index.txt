@@ -28,6 +28,13 @@ java -Djava.awt.headless=true -jar server.jar
 
 
 ########
+# node #
+########
+
+sudo dnf install nodejs
+
+
+########
 # zoom #
 ########
 
