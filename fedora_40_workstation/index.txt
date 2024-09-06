@@ -1,0 +1,45 @@
+########
+# java #
+########
+
+# get the latest java jdk from oracle
+# https://www.oracle.com/java/technologies/downloads/#java22
+# downloaded jdk
+wget https://download.oracle.com/java/22/latest/jdk-22_linux-x64_bin.rpm
+# install jdk
+sudo dnf install jdk-22_linux-x64_bin.rpm
+
+
+#############
+# minecraft #
+#############
+
+# download the latest minecraft server that mineflayer supports (1.20.4)
+# https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-4
+wget https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar
+# run minecraft server the first time
+java -Djava.awt.headless=true -jar server.jar 
+# it will give a eula message. open eula.txt with nano. change false to true. save
+nano eula.txt
+# start a tmux session
+tmux
+# run minecraft server in tmux
+java -Djava.awt.headless=true -jar server.jar 
+
+
+########
+# node #
+########
+
+sudo dnf install nodejs
+
+
+########
+# zoom #
+########
+
+# download latest zoom workplace for fedora
+# install
+sudo dnf install ./zoom_x86_64.rpm
+
+
